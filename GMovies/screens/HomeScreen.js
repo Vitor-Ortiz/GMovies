@@ -36,7 +36,8 @@ export default function HomeScreen() {
       >
         <TrendingMovies data={trending} />
 
-        <MovieList title="Próximos lançamentos" data={upcoming} />
+        <MovieList title="Próximos Lançamentos" data={upcoming} />
+        <MovieList title="Melhores Avaliados" data={topRated} />
       </ScrollView>
     </View>
   )
